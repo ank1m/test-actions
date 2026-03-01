@@ -1,9 +1,9 @@
 on:
   release:
-    types: [published]
+    types: [created]
 
 jobs:
   publish-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Release published"
+      - run: echo "Release created"
